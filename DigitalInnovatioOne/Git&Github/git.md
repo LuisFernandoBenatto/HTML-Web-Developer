@@ -93,12 +93,12 @@
 <h2>Command Flow</h2>
 
 <div>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>create</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>browse</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>change</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>revert</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>update</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>branch</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>commit</strong></span>
-  <span style="border: 1px solid #ddd;padding:0px 20px;"><strong>push</strong></span>
+  <span><strong>create</strong></span>
+  <span><strong>browse</strong></span>
+  <span><strong>change</strong></span>
+  <span><strong>revert</strong></span>
+  <span><strong>update</strong></span>
+  <span><strong>branch</strong></span>
+  <span><strong>commit</strong></span>
+  <span><strong>push</strong></span>
 </div>

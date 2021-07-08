@@ -69,7 +69,15 @@
 <p>Add origin</p>
 
     $ git remote add origin [url_github_repository]
-  
+
+<p>Push</p>
+
+    $ git push
+    $ git push master origin
+<p>Pull</p>
+
+    $ git pull
+    $ git pull master origin
 <h2>Git Commands</h2>
 <h3>• Create</h3>
 <p>From existing files</p>

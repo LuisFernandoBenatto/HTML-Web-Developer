@@ -78,6 +78,9 @@
 
     $ git pull
     $ git pull master origin
+<p>Clone</p>
+
+    $ git clone [url_github_repository]    
 <h2>Git Commands</h2>
 <h3>• Create</h3>
 <p>From existing files</p>

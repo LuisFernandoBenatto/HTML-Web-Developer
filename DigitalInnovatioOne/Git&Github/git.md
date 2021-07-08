@@ -11,6 +11,7 @@
       <tr><td>$ mkdir</td><td>$ mkdir</td></tr>
       <tr><td>$ del / rmdir</td><td>$ rm -rf</td></tr>
       <tr><td>$ cls (ctrl+L)</td><td>$ clear (ctrl+L)</td></tr>
+      <tr><td>$ mv</td><td>$ mv</td></tr>
     </tbody>
   </table>
 </div>
@@ -50,12 +51,24 @@
 
     $ git config --global user.email ["email@emal.com"]
     $ git config --global user.name [Name]
+
+    $ git config --list
+
+    $ git config --global --unset user.email
+    $ git config --global --unset user.name
 <p>Add</p> 
 
     $ git add *
+<p>Status</p>
+
+    $ git st
+    $ git status
 <p>Commit</p>
 
     $ git commit -m ["first_commit"]
+<p>Add origin</p>
+
+    $ git remote add origin [url_github_repository]
   
 <h2>Git Commands</h2>
 <h3>• Create</h3>
@@ -64,6 +77,7 @@
     $ git init
     $ git add .
     $ git add *
+    $ git add [filename]
 <p>From existing repository</p>
 
     $ git clone ~/old ~/new
@@ -83,10 +97,12 @@
 
 <p>In Git, commit only respects changes that have been marked explicitly with add.</p>
 
-    $ git commit -m "name_commit"
+    $ git commit -m ["name_commit"]
     $ git commit [-a] (-a: add changed files automatically)
     $ gir format-patch origin (create set of diffs)
+    $ git push
     $ git push remote (push to origin or remote)
+    $ git push -u origin main
     $ git tag foo (mark current version)
 <h3>• Revert</h3>
 

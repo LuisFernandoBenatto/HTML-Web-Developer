@@ -1,0 +1,1 @@
+Texto de exemplo para o uso do sha1

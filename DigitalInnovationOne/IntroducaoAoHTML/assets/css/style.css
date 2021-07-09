@@ -1,0 +1,94 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+header#cabecalhoPrincipal {
+  background-image: url("/DigitalInnovatioOne/IntroducaoAoHTML/assets/img/htmlCode.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  padding: 50px;
+  text-align: center;
+}
+
+
+header#cabecalhoPrincipal {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #540886;
+  text-shadow: #ffffff 5px 4px 2px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #710db4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #540886;
+  text-decoration: underline;
+}
+
+.img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+#headerArticle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  margin: 30px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #353E48;
+  color: #FFF;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.listaNaoOrdenada {
+  list-style-type: none;
+}
+
+.listaNaoOrdenada li a:hover {
+  color: #ffffff;
+}

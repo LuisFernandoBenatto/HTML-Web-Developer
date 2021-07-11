@@ -1,0 +1,205 @@
+/* ************************************************************************** */
+/* Renposividade */
+@media (max-width: 1080px) {
+  /* ************************************************************************ */
+  /* MAIN */
+  /* filme principal */
+  .filme-principal {
+    height: 500px;
+  }
+
+  .categotyLogo {
+    height: 15px;
+  }
+  
+  .categoty p {
+    font-size: .5rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .filme-principal .titulo {
+    font-size: 2rem;
+  }
+
+  .titulo .span_1{
+    font-size: 3rem;
+  }
+
+  .filme-principal .sinopse {
+    font-size: 0.8rem;
+    width: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+  /* ************************************************************************ */
+  /* HEADER */
+  header .logo {
+    width: 120px;
+  } 
+  /* ************************************************************************ */
+  /* NAV */
+  .navegacao a {
+    color: var(--gray);
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+
+  .navegacao a:hover {
+    color: var(--white);
+    background-color: transparent;
+  }
+  /* ************************************************************************ */
+  /* MAIN */
+  /* filme principal */
+  .filme-principal {
+    height: 400px;
+  }
+
+  .filme-principal .titulo {
+    font-size: 1.2rem;
+  }
+
+  .titulo .span_1{
+    font-size: 2rem;
+  }
+  
+  .button {
+    padding: .4rem 0rem .4rem .5rem;
+    font-size: 0rem;
+  }
+  
+  .button:nth-child(1) {
+    margin-right: 0.5rem;
+  }
+  
+  .ion {
+    font-size: 1.2rem;
+  }
+
+  .filme-principal .sinopse {
+    font-size: 0.6rem;
+    width: 40%;
+  }
+
+  .categoty,
+  .filme-principal .titulo,
+  .buttons,
+  .filme-principal .sinopse {
+    margin: 0 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* ************************************************************************ */
+  /* HEADER */
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navegacao a {
+    color: var(--gray);
+    padding: 0rem;
+  }
+
+  .navegacao a:hover {
+    color: var(--white);
+    background-color: transparent;
+  }
+
+  /* ************************************************************************ */
+  /* MAIN */
+  /* filme principal */
+  .filme-principal {
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* ************************************************************************ */
+  /* HEADER */
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ************************************************************************ */
+  /* MAIN */
+  /* filme principal */
+  .filme-principal {
+    height: 200px;
+  }
+
+  .categoty {
+    display: none;
+  }
+
+  .filme-principal .titulo {
+    font-size: 0.6rem;
+  }
+
+  .titulo .span_1{
+    font-size: 0.9rem;
+  }
+  
+  .button {
+    padding: .3rem 0rem .3rem .5rem;
+    font-size: 0rem;
+  }
+  
+  .button:nth-child(1) {
+    margin-right: 0.2rem;
+  }
+  
+  .ion {
+    font-size: 0.6rem;
+  }
+
+  .filme-principal .sinopse {
+    font-size: 0.6rem;
+    width: 80%;
+    height: 2rem;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+  }
+
+  .filme-principal .titulo,
+  .buttons,
+  .filme-principal .sinopse {
+    margin: 0 0 1rem 0.8rem;
+  }
+}
+
+@media (max-width: 350px) {
+  /* ************************************************************************ */
+  /* HEADER */
+  div {
+    overflow: hidden;
+  }
+
+  header, nav {
+    overflow: visible;
+  }
+
+  .navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ************************************************************************ */
+  /* MAIN */
+  /* filme principal */
+  .filme-principal {
+    height: 100px;
+  }
+
+  .filme-principal .sinopse {
+    display: none;
+  }
+}

@@ -144,67 +144,9 @@ body {
 }
 
 .app-download:nth-child(1) {
-  background-image: url("/Projetos/RecriandoPagInicalInstagram/assets/img/apple-button.png");
+  background-image: url("/Projetos/RecriandoPaginaInicalInstagram/assets/img/apple-button.png");
 }
 
 .app-download:nth-child(2) {
-  background-image: url("/Projetos/RecriandoPagInicalInstagram/assets/img/googleplay-button.png");
-}
-@media (max-width: 1200px) {
-  .instagram-wrapper {
-    width: 80%;
-  }
-}
-
-@media (max-width: 1080px) {
-  .instagram-wrapper {
-    width: 80%;
-  }
-}
-
-@media (max-width: 950px) {
-  .get-the-app {
-    display: none;
-  }
-}
-
-@media (max-width: 700px) {
-  body {
-    background-color: #ffffff;
-  }
-
-  .instagram-wrapper {
-    width: 80%;
-  }
-
-  .group {
-    border: 1px solid transparent;
-  }
-
-  .instagram-phone {
-    display: none;
-  }
-
-  .instagram-continue {
-    width: 100%;
-  }
-
-  .get-the-app {
-    display: flex;
-  }
-}
-
-@media (max-width: 450px) {
-  .get-the-app {
-    display: none;
-  }
-}
-
-@media (max-width: 260px) {
-  .instagram-wrapper {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-  }
+  background-image: url("/Projetos/RecriandoPaginaInicalInstagram/assets/img/googleplay-button.png");
 }

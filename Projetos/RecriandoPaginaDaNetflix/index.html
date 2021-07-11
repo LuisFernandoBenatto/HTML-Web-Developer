@@ -5,20 +5,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- ICONE -->
   <link rel="shortcut icon" href="./assets/img/netflix_logo_icon.ico" type="image/x-icon">
+
   <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <!-- JS -->
-  <script src="./assets/js/main.js"></script>
+  <link rel="stylesheet" href="./assets/css/responsividade.css">
+    <!-- OWL CAROSSEL-->
+    <link rel="stylesheet" href="./assets/css/OwlCaroussel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/OwlCaroussel/owl.theme.default.min.css">
+
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
   <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <!--  -->
+
+  <!-- TITLE -->
   <title>Netflix Clone</title>
 </head>
 <body>
@@ -38,16 +46,79 @@
   <main>
     <div class="filme-principal">
       <div class="container">
-        <h3 class="titulo">Lucifer</h3>
-        <div class="buttons">
-          <button type="button" role="button" class="button"><ion-icon name="play"></ion-icon>Assitir</button>
-          <button type="button" role="button" class="button"><ion-icon name="add-outline"></ion-icon>Minha lista</button>
+        <div class="categoty">
+          <img class="categotyLogo" src="./assets/img/netflix_logo_icon.svg" alt="Netflix">
+          <p>SÉRIES</p>
         </div>
-        <p class="sinopse">Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos. Lucifer descobre que nem todos seus irmãos e irmãs querem que ele consiga a grande promoção. Dan propõe apresentar Ella a um velho amigo.</p>
+        <h3 class="titulo">
+          <span class="span_1">L</span>
+          UCIFER
+        </h3>
+        <div class="buttons">
+          <button type="button" role="button" class="button">
+            <i class="fas fa-play ion"></i>
+            Assistir
+          </button>
+          <button type="button" role="button" class="button">
+            <i class="fas fa-plus ion"></i>
+            Minha lista
+          </button>
+        </div>
+        <p class="sinopse">
+          Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos. Lucifer descobre que nem todos seus irmãos e irmãs querem que ele consiga a grande promoção. Dan propõe apresentar Ella a um velho amigo.
+        </p>
       </div>
     </div>
   </main>
   <!-- --------------------------------------------------------------------- -->
+  <div class="carrosel-filmes"> 
+    <p class="popular">Populares na Netflix</p>
+    <div class="owl-carousel owl-theme">
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini1.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini2.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini3.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini4.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini5.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini6.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini7.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini8.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini9.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini10.jpg" alt="Imagem filmes|séries"></div>
+    </div>
+  </div>
+  <div class="carrosel-filmes"> 
+    <p class="popular">Filmes</p>
+    <div class="owl-carousel owl-theme">
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini3.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini4.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini5.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini6.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini7.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini8.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini10.jpg" alt="Imagem filmes|séries"></div>
+    </div>
+  </div>
+  <div class="carrosel-filmes"> 
+    <p class="popular">Séries</p>
+    <div class="owl-carousel owl-theme">
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini1.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini3.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini6.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini7.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini8.jpg" alt="Imagem filmes|séries"></div>
+      <div class="box-filme item"><img src="./assets/img/imgsPage/mini9.jpg" alt="Imagem filmes|séries"></div>
+    </div>
+  </div>
+  <!-- --------------------------------------------------------------------- -->
+
+  <!-- --------------------------------------------------------------------- -->
   <footer></footer>
+
+  <!-- JS -->
+  <!-- OWL CAROSSEL-->
+  <script src="./assets/js/OwlCaroussel/jquery.min.js"></script>
+  <script src="./assets/js/OwlCaroussel/owl.carousel.min.js"></script>
+  <script src="./assets/js/OwlCaroussel/setup.js"></script>  
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

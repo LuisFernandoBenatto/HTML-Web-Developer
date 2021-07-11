@@ -1,22 +1,18 @@
 // console.log("Hello, World!!!")
+$(document).ready(function() {
+    $('.btn').hide()
 
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  responsiveClass:true,
-  responsive:{
-      0:{
-          items:1,
-          nav:true
-      },
-      600:{
-          items:3,
-          nav:false
-      },
-      1000:{
-          items:5,
-          nav:true,
-          loop:false
-      }
-  }
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 100) {
+            $('.btn').fadeIn()
+        } else {
+            $('.btn').fadeOut()
+        }
+    })
+    $('.btn').click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 3000)
+        return false
+    })
 })

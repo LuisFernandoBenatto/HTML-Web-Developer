@@ -1,0 +1,12 @@
+@font-face { font-family: "Snake"; src: url("/Projetos/RecriandoJogoDaCobrinha/assets/fonts/BethanieSnake_PersonalUseOnly.ttf"); }
+* { font-family: "Snake"; }
+body {
+  width: 100%;
+  background-image: url("/Projetos/RecriandoJogoDaCobrinha/assets/img/SnakeBG.png");
+}
+.flex { display: flex;align-items: center;justify-content: center; height: 100px;}
+img { margin-right: 1rem; } 
+.flex h1 { font-size: 5rem; color: #6B8E23; margin: 0; margin-top: 0rem; }
+.flex span { font-size: 5rem; color: #8B4513; margin-right: 1rem; }
+canvas { border: 3px dashed #8B4513;}
+.flex2 { display: flex;align-items: center;justify-content: center;margin-top: 0;}

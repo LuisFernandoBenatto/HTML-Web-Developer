@@ -1,0 +1,94 @@
+.logo {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.navbar {
+  background-color: #9370DB;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(117, 13, 253, 0.25);
+}
+
+.btn-outline-dark {
+  color: #5B4282;
+  border-color: #5B4282;
+}
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #5B4282;
+  border-color: #5B4282;
+}
+.btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
+  box-shadow: 0 0 0 0.25rem rgba(91, 66, 130, 0.5);
+}
+.btn-check:checked + .btn-outline-dark, .btn-check:active + .btn-outline-dark, .btn-outline-dark:active, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show {
+  color: #fff;
+  background-color: #5B4282;
+  border-color: #5B4282;
+}
+.btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(91, 66, 130, 0.5);
+}
+.btn-outline-dark:disabled, .btn-outline-dark.disabled {
+  color: #5B4282;
+  background-color: transparent;
+}
+
+.b-example-divider {
+  height: 3rem;
+  margin-top :5px;
+  width: 100%;
+  border: none;
+  background: linear-gradient(180deg,#6e42c118, #6e42c159, #6e42c1c2);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #7555a8;
+  border-color: #7555a8;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5B4282;
+  border-color: #5B4282;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #5B4282;
+  border-color: #5B4282;
+  box-shadow: 0 0 0 0.25rem rgba(91, 66, 130, 0.5);
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #5B4282;
+  border-color: #5B4282;
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(91, 66, 130, 0.5);
+}
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: #5B4282;
+  border-color: #5B4282;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.center {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

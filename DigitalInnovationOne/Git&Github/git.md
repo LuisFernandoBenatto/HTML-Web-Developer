@@ -89,26 +89,52 @@
 
 Start a new feature 
     
-    git checkout -b new-feature main
+    $ git checkout -b new-feature main
 Edit some files
     
-    git add [file]
-    git commit -m "Start a feature"
+    $ git add [file]
+    $ git commit -m "Start a feature"
 Edit some files
     
-    git add [file]
-    git commit -m "Finish a feature"
+    $ git add [file]
+    $ git commit -m "Finish a feature"
 Develop the main branch
     
-    git checkout main
+    $ git checkout main
  Edit some files
     
-    git add [file]
-    git commit -m "Make some super-stable changes to main"
+    $ git add [file]
+    $ git commit -m "Make some super-stable changes to main"
 Merge in the new-feature branch
     
-    git merge new-feature
-    git branch -d new-feature
+    $ git merge new-feature
+    $ git branch -d new-feature
+<p>Branch & Merge</p>
+Brach atual com:
+    
+    $ git branch
+    $ git log --oneline
+Criar nova Branck:
+
+    $ git checkout -b [teste]
+Trocar de Branch:
+
+    $ git checkout [master]
+    $ git branch
+Observar as Branch
+
+    $ git log --oneline --graph
+    $ git log --oneline --graph --all
+Desenho do grafico de commits:
+
+    $ git log --graph --all
+    $ Q (se o terminal travar se tiver erros na branch)
+Unir as Branch (estar na branch main):
+
+    $ git merge [teste]
+Abortar merge:
+
+    $ git merge --abort
 <h2>Git Commands</h2>
 <h3>• Create</h3>
 <p>From existing files</p>
